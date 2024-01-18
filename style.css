@@ -1,0 +1,98 @@
+/* variable */
+:root {
+  --h1-font-size:40px;
+  --h2-font-size:32px;
+  --small-font-size:14px;
+  
+  --warna-utama: #8e9ca7;
+  --warna-gelap: #0f0f0f;
+  --grey-color: #778899;
+}
+
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 70px 0;
+}
+section .section-title {
+  font-size:var(--h2-font-size) ;
+  font-weight:800;
+  text-transform: uppercase;
+
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--warna-utama);
+}
+
+.header-section .header-title {
+ 
+  color: var(--warna-utama);
+}
+
+.header-section .header-title-2 {
+  color: var(--warna-gelap);
+}
+
+.header-section .header-skill {
+  color: var(--warna-gelap);
+  text-decoration: none;
+}
+
+.header-section .header-skill i {
+  transition: 0.3s;
+}
+
+.header-section .header-skill:hover {
+  color: var(--warna-utama);
+}
+
+.header-section .header-skill:hover i {
+  transform: rotate(-45deg);
+}
+
+.header-section .header-img {
+  width: 90%;
+}
+.btn-warna {
+  background-color: var(--warna-utama);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.text-warna{
+  color: var(--warna-utama);
+}
+
+.portofolio-section {
+  background-color:var(--warna-utama);
+}
+
+
+/* skills */
+.skills-section {
+  background-color:var(--warna-utama);
+}
+
+/* skillls */
+.skills-section .progress-bar {
+width: 100%;
+height: 10px;
+background-color: var(--grey-color);
+border-radius: 10px;
+}
+/* News  */
+.news-section .card .card-img-top{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}  
+.news-section .card a{
+font-size: 12px;
+}
